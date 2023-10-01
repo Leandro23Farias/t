@@ -1,3 +1,5 @@
+
+/* CORES início */
 :root {
     --color-black-100:#242325;
     --color-silver-100:#939393;
@@ -14,6 +16,20 @@
     color: var(--color-blue-50); 
 }
 
+.links a {
+    text-decoration: none;
+    color: var(--color-silver-100);
+   
+}
+
+.conteudo .paragrafo {
+    color: black;
+    /* color: var(--color-silver-100); */
+    
+}
+/* CORES fim */
+
+/* FONTES inicio */
 .sub-titulo .sub1 {
     font-family: 'Roboto Condensed', sans-serif;
     color: var(--color-silver-100);
@@ -27,12 +43,9 @@
 .conteudo .titulo-conteudo {
     font-family: 'Roboto Condensed', sans-serif;
 }
+/* FONTES fim */
 
-.conteudo .paragrafo {
-    color: black;
-    /* color: var(--color-silver-100); */
-    
-}
+
 
 
 #social-images img {
@@ -40,20 +53,18 @@
     padding: 10px;
 }
 
-.links a {
-    text-decoration: none;
-    color: var(--color-silver-100);
-   
-}
 
+/* ANIMAÇÃO inicio */
 .transitionSize {
     transition: transform 0.5s;
 }
 
 .transitionSize:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
     color: var(--color-silver-20);
 }
+/* ANIMAÇÃO fim */
+
 
 /* MOBILE NAV inicio */
 @media (min-width: 768px) {
@@ -102,12 +113,9 @@
 }
 /* MOBILE NAV fim */
 
+/* MOBILE NAV extras index */
 @media (max-width: 768px) {
 .leandro {
     margin-top: 50px;
 }
-}
-
-.g {
-    color: var(--color-blue-50);
 }

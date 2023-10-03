@@ -51,6 +51,16 @@
 }
 /* ANIMAÇÃO fim */
 
+.link-visualizar {
+    color: #1a5874;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.visualizar {
+    color: #1a5874;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .menu {
     width: 100px;
 }
